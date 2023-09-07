@@ -1,0 +1,6 @@
+<% @markets.each do |market| %>
+  <p><%= market.name %></p>
+  <p><%= market.city %></p>
+  <p><%= market.state %></p>
+  <p><%= button_to "More Info", "/markets/#{market.id}", method: :get %>
+<% end %>
