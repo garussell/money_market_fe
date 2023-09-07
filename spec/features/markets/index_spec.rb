@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "Markets Index Page" do
   before do
-    stub_request(:get, 'localhost:3000/api/v0/marets')
+    stub_request(:get, '/markets')
       .to_return(status: 200, body: '[{"id": "322458", "name": "14&U Farmers Market", "city": "Washington", "state": "District of Columbia"}]')
 
     visit "/markets"

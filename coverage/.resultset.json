@@ -224,6 +224,8 @@
           null,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -239,15 +241,11 @@
           null
         ]
       },
-      "/Users/allenrussell/turing_work/mod3/lessons/market_money_fe/app/controllers/markets_controller.rb": {
+      "/Users/allenrussell/turing_work/mod3/lessons/market_money_fe/app/controllers/vendors_controller.rb": {
         "lines": [
           1,
           1,
-          2,
-          null,
-          null,
           1,
-          null,
           null,
           null
         ]
@@ -262,15 +260,31 @@
         "lines": [
           1,
           1,
-          2,
+          1,
           null,
           null,
           1,
-          2,
+          0,
+          0,
+          0,
           null,
-          2,
-          2,
           null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -279,21 +293,33 @@
         "lines": [
           1,
           1,
-          2,
+          0,
           null,
           null,
           1,
-          2,
-          2,
+          0,
           null,
           null,
           1,
-          2,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
           null,
           null
         ]
       },
-      "/Users/allenrussell/turing_work/mod3/lessons/market_money_fe/app/poros/market.rb": {
+      "/Users/allenrussell/turing_work/mod3/lessons/market_money_fe/app/poros/vendor.rb": {
         "lines": [
           1,
           1,
@@ -301,16 +327,28 @@
           null,
           null,
           null,
+          null,
+          null,
           1,
-          2,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          1,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1694123418
+    "timestamp": 1694129620
   }
 }
