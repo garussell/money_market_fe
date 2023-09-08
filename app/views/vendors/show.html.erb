@@ -1,7 +1,19 @@
-<h1><%= @vendor.name %></h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-<p>Contact Info: </p>
-<p>name: <%= @vendor.contact_name %></p>
-<p>phone: <%= @vendor.phone %></p><br>
-<p>Credit Accepted?: <%= @vendor.credit_accepted %></p><br>
-<p>Description: <%= @vendor.description %></p>
+  <div class="top-header"><%= @vendor.name %></div>
+  <h3>Contact Info: </h3>
+  <div class="format-list">
+    <p>name: <%= @vendor.contact_name %></p>
+    <p>phone: <%= @vendor.phone %></p><br>
+    <p>Credit Accepted?: <%= @vendor.credit_accepted %></p><br>
+    <p>Description: <%= @vendor.description %></p>
+  </div>
+
+</body>
+</html>

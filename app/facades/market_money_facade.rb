@@ -5,8 +5,8 @@ class MarketMoneyFacade
 
   def self.get_all_markets
     markets = market.all_markets
-    markets.map do |data|
-      Market.new(data[1][0])
+    markets[:data].map do |data|
+      Market.new(data)
     end
   end
 
@@ -17,8 +17,8 @@ class MarketMoneyFacade
 
   def self.get_all_vendors_for_one_market(market_id)
     vendors = market.all_vendors_for_one_market(market_id)
-    vendors.map do |data|
-      Vendor.new(data[1][0])
+    vendors[:data].map do |data|
+      Vendor.new(data)
     end
   end
 

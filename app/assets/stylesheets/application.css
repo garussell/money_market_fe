@@ -13,3 +13,74 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/application.css (or application.scss) */
+
+.top-header {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 64px;
+}
+
+.info-header {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.format-list {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.market-table {
+  color: #040404;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto; 
+  border-right: 2px solid #000000;
+}
+
+.table-row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  width: 100%; 
+  border-top: 2px solid #000000; 
+  border-bottom: 2px solid #000000; 
+}
+
+.table-row:nth-child(even) {
+  background-color: #e2e2e2;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  padding: 10px; 
+  border-left: 2px solid #000000; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-row {
+  font-weight: bold;
+  background-color: #aaa8a8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.more-info-button {
+  background-color: #f4f6f8;
+  color: #040404;
+  border: 2px solid #040505;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.more-info-button:hover {
+  background-color: #158ad2;
+}
+

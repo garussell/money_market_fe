@@ -11,11 +11,11 @@ class Vendor
     @name = data[:attributes][:name]
     @contact_name = data[:attributes][:contact_name]
     @phone = data[:attributes][:contact_phone]
-    @credit_accepted = translate_credit_accepted(data)
+    @credit_accepted = convert_credit_accepted(data)
     @description = data[:attributes][:description]
   end
 
-  def translate_credit_accepted(data)
+  def convert_credit_accepted(data)
     if data[:attributes][:credit_accepted]
       "YES"
     else
