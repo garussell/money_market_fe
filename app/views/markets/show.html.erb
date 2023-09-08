@@ -1,10 +1,23 @@
-<h1><%= @market.name %></h1>
-<p><%= @market.full_address %></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="top-header"><%= @market.name %></div>
+  <div class="info-header"><%= @market.full_address %></div>
+    <br>
+    <br>
+  <div class="format-list">
+    <h3>Vendors at our Market</h3>
+      <% @vendors.each do |vendor| %>
+        <p><%= link_to vendor.name, "/vendors/#{vendor.id}" %></p>
+      <% end %>
+  </div>
 
-<h3>Vendors at our Market</h3>
-<% @vendors.each do |vendor| %>
-  <p><%= link_to vendor.name, "/vendors/#{vendor.id}" %></p>
-<% end %>
+</body>
+</html>
   
 
 

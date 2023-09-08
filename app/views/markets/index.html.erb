@@ -1,6 +1,27 @@
-<% @markets.each do |market| %>
-  <p><%= market.name %></p>
-  <p><%= market.city %></p>
-  <p><%= market.state %></p>
-  <p><%= button_to "More Info", "/markets/#{market.id}", method: :get %>
-<% end %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="top-header">Markets</div>
+  <div class="market-table">
+    <div class="table-row header-row">
+      <div class="column header">Name</div>
+      <div class="column header">City</div>
+      <div class="column header">State</div>
+      <div class="column header"></div>
+    </div>
+    <% @markets.each do |market| %>
+      <div class="table-row">
+        <div class="column"><%= market.name %></div>
+        <div class="column"><%= market.city %></div>
+        <div class="column"><%= market.state %></div>
+        <div class="column"><%= button_to "More Info", "/markets/#{market.id}", method: :get, class: "more-info-button" %></div>
+      </div>
+    <% end %>
+  </div>
+
+</body>
+</html>
