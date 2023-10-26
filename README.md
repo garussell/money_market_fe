@@ -3,7 +3,7 @@
 ## Overview
 The Money Market Frontend is the client-side application for the Money Market project. It provides a user-friendly interface for managing financial transactions, monitoring account balances, and keeping track of investments. This application is built with Ruby on Rails, using frontend technologies such as JavaScript, HTML, CSS, and more.
 
-For the corresponding backend API, please refer to the Money Market Backend Repository.
+For the corresponding backend API, please refer to the [Money Market Backend Repository](https://github.com/garussell/market_money_api_be).
 
 ## Features
 - User Authentication: Secure user registration and login functionality.
